@@ -8,9 +8,10 @@ public class Instructors extends People<Instructor>{
 
     private static final Instructors INSTANCE = new Instructors();
     List<Instructor> instructorList = new ArrayList<Instructor>();
-    Instructor instructor1 = new Instructor(001,"Nobles");
-    Instructor instructor2 = new Instructor(002,"Dolio");
-    Instructor instructor3 = new Instructor(003,"Younger");
+    Instructor instructor1 = Educator.NOBLES.getInstructor();
+    Instructor instructor2 = Educator.DOLIO.getInstructor();
+    Instructor instructor3 = Educator.YOUNGER.getInstructor();
+
 
     public Instructors(){
         instructorList.add(instructor1);

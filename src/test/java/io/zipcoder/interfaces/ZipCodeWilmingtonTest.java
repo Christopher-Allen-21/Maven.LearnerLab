@@ -13,7 +13,7 @@ public class ZipCodeWilmingtonTest {
 
         zcw.hostLecture(001,10.0);
 
-        System.out.println(zcw.getStudyMap());
+        //System.out.println(zcw.getStudyMap());
 
     }
 
@@ -23,7 +23,7 @@ public class ZipCodeWilmingtonTest {
 
         zcw.hostLecture(zcw.getInstructors().instructor2,20.0);
 
-        System.out.println(zcw.getStudyMap());
+       //System.out.println(zcw.getStudyMap());
 
     }
 }
